@@ -1,0 +1,13 @@
+﻿@model List<string>
+@{
+    ViewData["Title"] = "RSSFeed";
+}
+
+<h1>RSSFeed</h1>
+
+@foreach (string s in Model)
+{
+    <br />
+    @s;
+}
+
